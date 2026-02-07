@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Rose Day ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to top, #ff758c, #ff7eb3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        img {
+            width: 220px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rose_icon.svg/512px-Rose_icon.svg.png" alt="Rose">
+        <h1>Happy Rose Day 🌹</h1>
+        <p>
+            This rose is for you,<br>
+            as beautiful as your smile ❤️<br><br>
+            Forever Yours
+        </p>
+    </div>
+</body>
+</html>
